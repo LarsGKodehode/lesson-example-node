@@ -1,0 +1,11 @@
+{
+  "name": "lesson-example-node",
+  "version": "0.0.1",
+  "description": "A repository serving as an introduction to NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LarsG",
+  "license": "MIT"
+}
