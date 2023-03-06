@@ -18,9 +18,11 @@
 
 ### [Node.JS](https://nodejs.org/en/)
 
-The JavaScript [Runtime Enviroment](https://en.wikipedia.org/wiki/Runtime_system). Essential for running JavaScript outside of your browser. If you want to write your backend in JavaScript, you need to install NodeJS on your server. Due to how many parts of the modern web is reliant on Node.JS they are following a strict [release schedule](https://nodejs.dev/en/about/releases/). If you do not like installing new software, I advise looking into something like **Node Version Manager**. Installation instruction for [Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades) / [POSIX](https://github.com/nvm-sh/nvm).
+The JavaScript [Runtime Enviroment](https://en.wikipedia.org/wiki/Runtime_system). Essential for running JavaScript outside of your browser. If you want to write your backend in JavaScript, you need to install NodeJS on your server.
 
-The next tools here are programs that are part of Node.JS.
+Due to how many parts of the modern web is reliant on Node.JS they are following a strict [release schedule](https://nodejs.dev/en/about/releases/). If you do not like installing new software, I advise looking into something like **Node Version Manager**. Installation instruction for [Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades) / [POSIX](https://github.com/nvm-sh/nvm).
+
+The next tools here are programs that comes as part of Node.JS.
 
 ### [Node Package Manager](https://docs.npmjs.com/)
 
