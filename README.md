@@ -69,6 +69,8 @@ You can also give it a [**PATH**](https://en.wikipedia.org/wiki/Path_(computing)
 node src/example.js
 ```
 
+[Node Basic Short List](https://www.codecademy.com/learn/learn-node-js/modules/intro-to-node-js/cheatsheet)
+
 ### NPM
 
 Basic argument again. Displays a list of often used commands.
