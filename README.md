@@ -1,11 +1,12 @@
 # NodeJS Intro
 
 ## Content
-- [Before you start](#before-you-start)
-- [Aboutnformation](#about)
+- [About](#about)
+- [Setup](#setup)
   - [NodeJs](#nodejs)
   - [Node Package Manager](#node-package-manager)
   - [Node Package Repository](#npmjs---node-package-repository)
+  - [Node Package Executor](#node-package-executor)
 - [Common Commands](#common-commands)
   - [node](#node)
   - [npm](#npm)
@@ -13,17 +14,13 @@
   - [npmjs](#npmjs)
 - [Interesting Stuff](#interesting-stuff)
 
-## Before you start
-
-To make use and follow allong with the instructions in this repository you need NodeJS installed on your local machine.
-Click the link and follow the instruction for your operating system.
-- [Install NodeJS](https://nodejs.org/)
-
 ## About
 
 ### [NodeJS](https://nodejs.org/en/)
 
-The JavaScript [Runtime Enviroment](https://en.wikipedia.org/wiki/Runtime_system). Essential for running JavaScript outside of your browser. If you want to write your backend in JavaScript, you need to install NodeJS on your server. The installation of NodeJS on your system comes with a couple of additional tools.
+The JavaScript [Runtime Enviroment](https://en.wikipedia.org/wiki/Runtime_system). Essential for running JavaScript outside of your browser. If you want to write your backend in JavaScript, you need to install NodeJS on your server. Due to how many parts of the modern web is reliant on NodeJS they are following a strict [release schedule](https://nodejs.dev/en/about/releases/). If you do not like installing new software, I advise looking into something like **Node Version Manager**. Installation for [Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades) / [POSIX](https://github.com/nvm-sh/nvm).
+
+Along with NodeJS comes a couple of other tools and web .
 
 ### [Node Package Manager](https://docs.npmjs.com/)
 
@@ -32,6 +29,16 @@ NPM is the Package Manager for Node. It is used for installing, removing, updati
 ### [NPMJS - Node Package Repository](https://www.npmjs.com/)
 
 This is the official npm package repository, where all (most all) of the code you will add to your project comes from. You can think of this as the AppStore or PlayStore of JavaScript projects. Depending on the company you end up working for, they might have set up their own private repository.
+
+### [Node Package <s>e</s>Xecutor]((https://www.npmjs.com/package/npx))
+
+NPX is the node package runner and allows you to execute JavaScript scripts. It is also capable of executing JavaScript that is hosted remotely without permanently installing them on your system.
+
+## Setup
+
+To make use and follow allong with the instructions in this repository you need NodeJS installed on your local machine.
+Click the link and follow the instruction for your operating system.
+- [Install NodeJS](https://nodejs.org/)
 
 ## Common Commands
 
@@ -92,9 +99,7 @@ npm run example
 
 Here is a [link to a npm cheat sheet](https://devhints.io/npm)
 
-### [NPX](https://www.npmjs.com/package/npx)
-
-npx stands for Node Package Execute and allows you to run JavaScript files from your terminal. It is also capable of executing JavaScript that is hosted remotely without permanently installing anything on your system.
+### NPX
 
 [Link to script](https://gist.github.com/LarsGKodehode/9023a44d8d250d6d53e6c164968692ee)
 ```sh
