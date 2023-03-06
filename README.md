@@ -1,85 +1,115 @@
-# NodeJS Example
+# NodeJS Intro
 
 ## Content
 - [Before you start](#before-you-start)
+- [Aboutnformation](#about)
+  - [NodeJs](#nodejs)
+  - [Node Package Manager](#node-package-manager)
+  - [Node Package Repository](#npmjs---node-package-repository)
 - [Common Commands](#common-commands)
   - [node](#node)
   - [npm](#npm)
   - [npx](#npx)
   - [npmjs](#npmjs)
-- [Background Information](#background-information)
-  - [NodeJs](#nodejs)
-  - [Node Package Manager](#node-package-manager)
-  - [Node Package Repository](#npmjs---node-package-repository)
 - [Interesting Stuff](#interesting-stuff)
 
 ## Before you start
+
 To make use and follow allong with the instructions in this repository you need NodeJS installed on your local machine.
 Click the link and follow the instruction for your operating system.
-- [Click Here!](https://nodejs.org/)
+- [Install NodeJS](https://nodejs.org/)
+
+## About
+
+### [NodeJS](https://nodejs.org/en/)
+
+The JavaScript [Runtime Enviroment](https://en.wikipedia.org/wiki/Runtime_system). Essential for running JavaScript outside of your browser. If you want to write your backend in JavaScript, you need to install NodeJS on your server. The installation of NodeJS on your system comes with a couple of additional tools.
+
+### [Node Package Manager](https://docs.npmjs.com/)
+
+NPM is the Package Manager for Node. It is used for installing, removing, updating and interact with any third party packages you have added to your project.
+
+### [NPMJS - Node Package Repository](https://www.npmjs.com/)
+
+This is the official npm package repository, where all (most all) of the code you will add to your project comes from. You can think of this as the AppStore or PlayStore of JavaScript projects. Depending on the company you end up working for, they might have set up their own private repository.
 
 ## Common Commands
 
-### node
+### NodeJS
 The basic *what can I do with this* option. The one argument you should, absolutely, memorize.
 ```sh
 node --help
 ```
+
 Check the version of node you are currently running. ALso a quick check to see if node is setup correctly.
 ```sh
 node --version
 node -v
 ```
+
 Start up a node [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) in your terminal, and start writing some code.
 ```sh
 node
 ```
 
-### npm
+You can also give it a [**PATH**](https://en.wikipedia.org/wiki/Path_(computing)) to a JavaScript file that you want to run.
+```sh
+node src/example.js
+```
 
-NPM is the Package Manager for Node. It is used for installing, removing and updating third party packages.
+### NPM
 
 Basic argument again. Displays a list of often used commands.
 ```sh
 npm --help
 ```
-Initialize a empty npm project. Everything is contained within the generated [package.json](package.json).
+
+Initialize a empty npm project. Everything is contained within the generated [package.json](package.json). This file *package.json* contains the definition, with all the files, external dependencies and a bunch of other stuff as well. <br>[Here is a link to the offical documentation for that file](https://docs.npmjs.com/cli/v9/configuring-npm/package-json)
 ```sh
 npm init
 ```
+
 Add a package to a projects dependencies.
 ```sh
 npm install <name-of-package>
 ```
+
 Remove a package from a projects dependencies.
 ```sh
 npm install <name-of-package>
 ```
+
 If you have packages that you only are using for development you can tack on a ```--save-dev```, shorthand ```-D``` to the install directive to have npm store the package in the devDependencies field instead.
 ```sh
 npm install --save-dev <name-of-package>
 npm install --D <name-of-package>
 ```
 
+At times you might have a bunch of commands you need to run from your terminal. The scripts field inside *package.json* allows you to setup a sequence of scripts once and have a simple way of executing them. Another common usage is to standarized the command for certain actions. Later on we will make heavy us of that for starting up a development server and pushing our project to production.
+```sh
+npm run example
+```
+
 Here is a [link to a npm cheat sheet](https://devhints.io/npm)
 
-### [npx](https://www.npmjs.com/package/npx)
-npx stands for Node Package Execute and allows you to run JavaScript files from your terminal, it also allows you to run JavaScript that is hosted on external web servers.
+### [NPX](https://www.npmjs.com/package/npx)
 
-### [npmjs](https://www.npmjs.com/)
+npx stands for Node Package Execute and allows you to run JavaScript files from your terminal. It is also capable of executing JavaScript that is hosted remotely without permanently installing anything on your system.
 
+[Link to script](https://gist.github.com/LarsGKodehode/9023a44d8d250d6d53e6c164968692ee)
+```sh
+npx https://gist.github.com/LarsGKodehode/9023a44d8d250d6d53e6c164968692ee
+```
 
-## Background Information
+**WARNING**: Do not execute scripts from untrusted sources. While incredible helpful this might result in modification to your system. Anything from *nothing* -> *messy* -> *malicious* is plausible.
 
-### [NodeJS](https://nodejs.org/en/)
-The JavaScript [Runtime Enviroment](https://en.wikipedia.org/wiki/Runtime_system). Essential for running JavaScript outside of your browser, also something you wil use when you want to create backend services with JavaScript.
+Ways to limit undesired effects:
+1. Read through the script to understand what it does.
+2. Test the script in some isolated enviroment
+3. Make a commit before executing the script
+4. Use [devcontainers](https://code.visualstudio.com/docs/devcontainers/containers) for your projects.
 
-### [Node Package Manager](https://docs.npmjs.com/)
-How we easily have access to other peoples code and how we manage alle of our package dependencies.
-
-### [NPMJS - Node Package Repository](https://www.npmjs.com/)
-This is the official npm package repository, where all (most all) of the code you will add to your project comes from. You can think of this as the AppStore or PlayStore of JavaScript projects.
-
+### [Link to npmjs.com](https://www.npmjs.com/)
 
 ## Interesting Stuff
 TODO: List out some fun/smart ways to start scripting with JavaScript

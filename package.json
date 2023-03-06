@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "A repository serving as an introduction to NodeJS",
   "main": "index.js",
+  "bin": "./src/example.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example": "node src/example.js 'Complex script here'"
   },
   "author": "LarsG",
   "license": "MIT"
