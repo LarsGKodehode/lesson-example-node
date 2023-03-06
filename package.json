@@ -4,7 +4,7 @@
   "description": "A repository serving as an introduction to NodeJS",
   "main": "index.js",
   "scripts": {
-    "example": "node src/example.js 'Complex script here'"
+    "example": "node src/example.js 'First argument' Second 'Third here'"
   },
   "author": "LarsG",
   "license": "MIT"
