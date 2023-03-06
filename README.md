@@ -2,9 +2,10 @@
 
 ## Content
 - [Before you start](#before-you-start)
-- [Cheat Sheat](#cheat-sheat)
+- [Common Commands](#common-commands)
   - [node](#node)
   - [npm](#npm)
+  - [npx](#npx)
   - [npmjs](#npmjs)
 - [Background Information](#background-information)
   - [NodeJs](#nodejs)
@@ -17,10 +18,10 @@ To make use and follow allong with the instructions in this repository you need 
 Click the link and follow the instruction for your operating system.
 - [Click Here!](https://nodejs.org/)
 
-## Cheat Sheat
+## Common Commands
 
 ### node
-The basic *what can I do with this* option. One thing you should absolutely memorize.
+The basic *what can I do with this* option. The one argument you should, absolutely, memorize.
 ```sh
 node --help
 ```
@@ -35,6 +36,9 @@ node
 ```
 
 ### npm
+
+NPM is the Package Manager for Node. It is used for installing, removing and updating third party packages.
+
 Basic argument again. Displays a list of often used commands.
 ```sh
 npm --help
@@ -56,6 +60,8 @@ If you have packages that you only are using for development you can tack on a `
 npm install --save-dev <name-of-package>
 npm install --D <name-of-package>
 ```
+
+Here is a [link to a npm cheat sheet](https://devhints.io/npm)
 
 ### [npx](https://www.npmjs.com/package/npx)
 npx stands for Node Package Execute and allows you to run JavaScript files from your terminal, it also allows you to run JavaScript that is hosted on external web servers.
