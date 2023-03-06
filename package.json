@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "A repository serving as an introduction to NodeJS",
   "main": "index.js",
-  "bin": "./src/example.js",
   "scripts": {
     "example": "node src/example.js 'Complex script here'"
   },
