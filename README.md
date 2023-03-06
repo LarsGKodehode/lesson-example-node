@@ -36,9 +36,14 @@ NPX is the node package runner and allows you to execute JavaScript scripts. It 
 
 ## Setup
 
-To make use and follow allong with the instructions in this repository you need NodeJS installed on your local machine.
-Click the link and follow the instruction for your operating system.
-- [Install NodeJS](https://nodejs.org/)
+Node.JS is a program that you need to install locally on your machine.
+
+Recommended, Node Version Manager:
+- [Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades)
+- [POSIX](https://github.com/nvm-sh/nvm).
+
+Pure Node.JS:
+- [Node.JS](https://nodejs.org/)
 
 ## Common Commands
 
