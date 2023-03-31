@@ -55,7 +55,7 @@ The basic *what can I do with this* option. The one argument you should, absolut
 node --help
 ```
 
-Check the version of node you are currently running. ALso a quick check to see if node is setup correctly.
+Check the version of node you are currently running. Also a quick check to see if node is setup correctly.
 ```sh
 node --version
 node -v
