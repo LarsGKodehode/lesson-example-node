@@ -42,7 +42,7 @@ Node.JS is a program that you need to install locally on your machine.
 
 Recommended, Node Version Manager:
 - [Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades)
-- [POSIX](https://github.com/nvm-sh/nvm).
+- [POSIX](https://github.com/nvm-sh/nvm)
 
 Pure Node.JS:
 - [Node.JS](https://nodejs.org/)
