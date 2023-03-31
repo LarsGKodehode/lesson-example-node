@@ -120,8 +120,7 @@ npx https://gist.github.com/LarsGKodehode/9023a44d8d250d6d53e6c164968692ee
 Ways to limit undesired effects:
 1. Read through the script to understand what it does.
 2. Test the script in some isolated enviroment
-3. Make a commit point before executing the script
-4. Use [devcontainers](https://code.visualstudio.com/docs/devcontainers/containers) for your projects.
+3. Use [devcontainers](https://code.visualstudio.com/docs/devcontainers/containers) for your projects.
 
 ### [Link to npmjs.com](https://www.npmjs.com/)
 
